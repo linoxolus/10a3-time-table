@@ -1,0 +1,47 @@
+.timetable {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 16px;
+    margin: 32px;
+}
+
+.timetable-item {
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: var(--primary-color2);
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.timetable-item.bold {
+    background-color: var(--primary-color);
+    font-weight: 1000;
+}
+
+.timetable-text {
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 1920px) {
+    .timetable {
+        transform: scale(1.7);
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .timetable {
+        transform: scale(0.6);
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .timetable {
+        transform: scale(0.5);
+    }
+}
