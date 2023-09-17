@@ -28,13 +28,13 @@
     vertical-align: middle;
 }
 
-@media screen and (min-width: 3841px) {
+@media screen and (min-width: 3840px) {
     .timetable {
         transform: scale(3);
     }
 }
 
-@media screen and (max-width: 3840px) and (min-width: 1920px) {
+@media screen and (max-width: 3839px) and (min-width: 1920px) {
     .timetable {
         transform: scale(1.7);
     }
