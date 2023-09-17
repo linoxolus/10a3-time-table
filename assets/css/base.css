@@ -1,3 +1,39 @@
+@font-face {
+    font-family: 'Linotte Bold';
+    src: url('../fonts/Linotte/Linotte_Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linotte';
+    src: url('../fonts/Linotte/Linotte_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linotte Heavy';
+    src: url('../fonts/Linotte/Linotte_Heavy.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linotte Semi Bold';
+    src: url('../fonts/Linotte/Linotte_Semi Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linotte Light';
+    src: url('../fonts/Linotte/Linotte_Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 :root {
     --backgroud-color: #1b1d29;
     --text-color: #fcfcfc;
@@ -10,7 +46,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'r0c0i Linotte';
+    font-family: 'Linotte';
 }
 
 #root {
