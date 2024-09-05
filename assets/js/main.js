@@ -1,36 +1,43 @@
 const subjectEls = document.querySelectorAll(
     '.timetable-item.subject .timetable-text'
 );
+
 var subjects = [
     {
         day: 'monday',
         content: [
-            'Lịch Sử',
-            'Tiếng Anh',
             'Hướng Nghiệp',
             'Hướng Nghiệp',
-            'Chào Cờ',
+            'Hóa Học',
+            'Hóa Học',
+            'Ngữ Văn',
         ],
     },
     {
         day: 'tuesday',
-        content: ['Toán', 'Tin Học', 'Vật Lý', 'Ngữ Văn', 'Hóa Học'],
+        content: ['Công Nghệ', 'Công Nghệ', 'Địa Phương', 'Toán', 'Hóa Học'],
     },
     {
         day: 'wednesday',
-        content: ['Công Nghệ', 'Ngữ Văn', 'Ngữ Văn', 'Tiếng Anh', 'Tiếng Anh'],
+        content: ['Lịch Sử', 'Vật Lý', 'Quốc Phòng', 'Tin Học', 'Toán'],
     },
     {
         day: 'thursday',
-        content: ['Vật Lý', 'Toán', 'Hóa Học', '', ''],
+        content: ['Toán', 'Tin Học', '', '', ''],
     },
     {
         day: 'friday',
-        content: ['Toán', 'Toán', 'Tin Học', 'Vật Lý', 'Lịch Sử'],
+        content: ['Lịch Sử', 'Vật Lý', 'Vật Lý', 'Toán', 'Tiếng Anh'],
     },
     {
         day: 'saturday',
-        content: ['Công Nghệ', 'Hướng Nghiệp', 'Địa Phương', 'Hóa Học', ''],
+        content: [
+            'Tiếng Anh',
+            'Tiếng Anh',
+            'Ngữ Văn',
+            'Ngữ Văn',
+            'Hướng Nghiệp',
+        ],
     },
 ];
 
@@ -45,8 +52,8 @@ function render() {
         });
         return acc;
     }, []);
-    fullSubjects = fullSubjects.flatMap(obj => obj)
-    for(i = 0; i < subjectEls.length; i++) {
+    fullSubjects = fullSubjects.flatMap((obj) => obj);
+    for (i = 0; i < subjectEls.length; i++) {
         subjectEls[i].innerHTML = fullSubjects[i];
     }
 }
