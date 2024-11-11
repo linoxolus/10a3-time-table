@@ -8,26 +8,26 @@ var subjects = [
         content: [
             'Hướng Nghiệp',
             'Hướng Nghiệp',
-            'Hóa Học',
-            'Hóa Học',
             'Ngữ Văn',
+            'Hóa Học',
+            'Hóa Học',
         ],
     },
     {
         day: 'tuesday',
-        content: ['Công Nghệ', 'Công Nghệ', 'Địa Phương', 'Toán', 'Hóa Học'],
+        content: ['Công Nghệ', 'Địa Phương', 'Ngữ Văn', 'Toán', 'Toán'],
     },
     {
         day: 'wednesday',
-        content: ['Lịch Sử', 'Vật Lý', 'Quốc Phòng', 'Tin Học', 'Toán'],
+        content: ['Vật Lý', 'Vật Lý', 'Quốc Phòng', 'Tin Học', 'Toán'],
     },
     {
         day: 'thursday',
-        content: ['Toán', 'Tin Học', '', '', ''],
+        content: ['Hóa Học', 'Tin Học', '', '', ''],
     },
     {
         day: 'friday',
-        content: ['Lịch Sử', 'Vật Lý', 'Vật Lý', 'Toán', 'Tiếng Anh'],
+        content: ['Lịch Sử', 'Vật Lý', 'Công Nghệ', 'Toán', 'Tiếng Anh'],
     },
     {
         day: 'saturday',
@@ -35,8 +35,8 @@ var subjects = [
             'Tiếng Anh',
             'Tiếng Anh',
             'Ngữ Văn',
-            'Ngữ Văn',
             'Hướng Nghiệp',
+            '',
         ],
     },
 ];
