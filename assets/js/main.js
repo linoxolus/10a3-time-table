@@ -15,7 +15,7 @@ var subjects = [
     },
     {
         day: 'tuesday',
-        content: ['Công Nghệ', 'Địa Phương', 'Ngữ Văn', 'Toán', 'Toán'],
+        content: ['Công Nghệ', 'Vật Lý', 'Ngữ Văn', 'Toán', 'Toán'],
     },
     {
         day: 'wednesday',
@@ -23,18 +23,18 @@ var subjects = [
     },
     {
         day: 'thursday',
-        content: ['Hóa Học', 'Tin Học', '', '', ''],
+        content: ['Địa Phương', 'Tin Học', '', '', ''],
     },
     {
         day: 'friday',
-        content: ['Lịch Sử', 'Vật Lý', 'Công Nghệ', 'Toán', 'Tiếng Anh'],
+        content: ['Ngữ Văn', 'Hóa Học', 'Công Nghệ', 'Toán', 'Tiếng Anh'],
     },
     {
         day: 'saturday',
         content: [
             'Tiếng Anh',
             'Tiếng Anh',
-            'Ngữ Văn',
+            'Lịch Sử',
             'Hướng Nghiệp',
             '',
         ],
